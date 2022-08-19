@@ -94,7 +94,7 @@
 .phone__picture {
   width: 60%;
 }
-
+/* Phone */
 .main {
   margin-top: 45px;
 }
@@ -138,9 +138,101 @@
 
 
 .title {
-  color: white;
+  color: rgb(225, 221, 221);
   margin-bottom: 20px;
   font-family: 'Poppins', sans-serif;
   font-size: 1.4rem;
   opacity: 0.8;
+}
+
+hr {
+  margin-top: 35px;
+  width: 784px;
+  border: 1px solid #E4E4E4;
+}
+
+.instruction {
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.instruction__title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.instruction__phone {
+  /* position: relative;
+  left: 95px;
+  bottom: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instruction__phone--special {
+  /* position: relative;
+  right: 110px;
+  bottom: 150px; */
+}
+
+.login-1 {
+  width: 420px;
+}
+
+.instruction__info {
+  /* right: 110px; */
+}
+
+
+.instruction__info--style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+}
+
+.instruction__info--special {
+  /* right: 110px;
+  bottom: 200px; */
+}
+
+.instruction__phone--primary {
+  /* position: relative;
+  left: 95px;
+  bottom: 370px; */
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.instruction__reg {
+  margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FF0000;
+  font-size: 1.1rem;
+  font-weight: bold;
+  width: 70%;
+}
+
+.instruction__log-out {
+  width: 70%;
+  line-height: 33px;
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.instruction__reg-out {
+  margin-top: 20px;
+  width: 70%;
+  font-size: 1.1rem;
+  line-height: 25px;
+  color: #737373;
 }
